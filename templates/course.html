@@ -1,0 +1,90 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Responsive Video Playlist Tutorial</title>
+
+   <!-- custom css file link  -->
+   <link rel="stylesheet" href="{%static 'css/style2.css' %}">
+
+</head>
+<body>
+   
+<div class="container">
+
+   <div class="main-video-container">
+    <iframe width="760" height="560" src="https://www.youtube.com/embed/796SRLuVMkw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" class="main-video" allowfullscreen></iframe>
+      <h3 class="main-vid-title">The Timeless Knowledge</h3>
+   </div>
+
+   <div class="video-list-container">
+
+      <div class="list active">
+        <iframe src="https://www.youtube.com/embed/eCa2iaT8gbg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen><class="list-video"></iframe>
+         <h3 class="list-title">The Timeless Knowledge 2</h3>
+      </div>
+
+      <div class="list">
+         <iframe width="560" height="315" src="https://www.youtube.com/embed/QBDuFv5oT7Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen><class="list-video"></iframe>
+         <h3 class="list-title">Krishna Concept of Infinity</h3>
+      </div>
+
+      {% comment %} <div class="list">
+         <video src="{%static 'images/vid-3.mp4'%}" class="list-video"></video>
+         <h3 class="list-title">emoji falling animation</h3>
+      </div>
+
+      <div class="list">
+         <video src="{%static 'images/vid-4.mp4'%}" class="list-video"></video>
+         <h3 class="list-title">3D town animation</h3>
+      </div>
+
+      <div class="list">
+         <video src="{%static 'images/vid-5.mp4'%}" class="list-video"></video>
+         <h3 class="list-title">man chasing carrot animation</h3>
+      </div>
+
+      <div class="list">
+         <video src="{%static 'images/vid-6.mp4'%}" class="list-video"></video>
+         <h3 class="list-title">door hinge animation</h3>
+      </div>
+
+      <div class="list">
+         <video src="{%static 'images/vid-7.mp4'%}" class="list-video"></video>
+         <h3 class="list-title">poeple walking in town animation</h3>
+      </div>
+
+      <div class="list">
+         <video src="{%static 'images/vid-8.mp4'%}" class="list-video"></video>
+         <h3 class="list-title">knight chasing virus animation</h3>
+      </div>
+
+      <div class="list">
+         <video src="{%static 'images/vid-9.mp4'%}" class="list-video"></video>
+         <h3 class="list-title">3D helicopter animation</h3>
+      </div> {% endcomment %}
+
+   </div>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- custom js file link  -->
+<script src="{%static 'js/script2.js' %}"></script>
+
+</body>
+</html>
